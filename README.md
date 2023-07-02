@@ -27,7 +27,7 @@ The experimental data have been obtained by running the commands:
 ```
 
 In doing so we are undersampling the EMNIST data, keeping only a third of its 
-original volume to comply with COLAB's RAM constraints.
+original volume to comply with CoLab's RAM constraints.
 
 
 
