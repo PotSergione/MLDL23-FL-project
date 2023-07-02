@@ -46,6 +46,8 @@ All arguments need to be specified through the ```args``` parameter. Example:
 python centralized_training.py --dataset femnist --model cnn --num_epochs 5 --lr 0.01
 ```
 
+### Logging the experiments
+We provide a utility to connect to the Wandb server via simple logger. It requires preventive autentication.
 
 ## References
 [1] Caldas, Sebastian, et al. "Leaf: A benchmark for federated settings." Workshop on Federated Learning for Data Privacy and Confidentiality (2019). 
