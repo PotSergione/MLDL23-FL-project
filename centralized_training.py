@@ -15,15 +15,11 @@ import datasets.ss_transforms as sstr
 import datasets.np_transforms as nptr
 
 from torch import nn
-from client import Client
 from datasets.femnist import Femnist
-from server import Server
 from utils.args import get_parser
 from datasets.idda import IDDADataset
 from models.deeplabv3 import deeplabv3_mobilenetv2
 from models.cnn import conv_network
-from utils.stream_metrics import StreamSegMetrics, StreamClsMetrics
-
 from wandb_logger import wandb_logger
 import wandb
 
