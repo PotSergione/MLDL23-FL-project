@@ -153,7 +153,7 @@ class Server:
     def train(self):
       """
         This method orchestrates the training, then evals and tests at rounds
-        level every 100 rounds
+        level every n rounds
       """
       for r in range(self.args.num_rounds + 1):
           print('Round {}...'.format(r))
