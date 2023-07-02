@@ -1,7 +1,7 @@
 # Towards Real World Federated Learning
 ### Machine Learning and Deep Learning 2023
 #### Politecnico di Torino
-Definitve code for Federated Learning project 2A by Angelini, Battistotti and Gallo
+Definitve code for the Federated Learning project 2A by Angelini, Battistotti and Gallo
 
 ## Setup
 #### Environment
@@ -19,12 +19,12 @@ The repository supports experiments on the following dataset:
 
 ## How to run
 The experimental data have been obtained by running the commands: 
-
+```bash
 ./preprocess.sh -s iid --sf 0.33 -k 0 -t --iu 1.0
-
-
+```
+```bash
 ./preprocess.sh -s niid --sf 0.33 -k 0 -t
-
+```
 
 In doing so we are undersampling the EMNIST data, keeping only a third of its 
 original volume to comply with COLAB's RAM constraints.
